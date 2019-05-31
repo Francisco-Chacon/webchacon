@@ -1,0 +1,27 @@
+  .jumbotron{
+            background: #015fff;
+	    }
+        ul{
+            width: 220px;
+            margin: 0 auto;
+            margin-top: 100px;	
+        }
+	    ul li{
+	        list-style: none;
+	    }
+	    ul li img{
+	        background-size: cover;
+		    border-radius: 6px;
+		    float:left;
+		    opacity: .6;
+		    margin-right: -5px;
+		    width: 200px;
+		    height: 200px;
+		    -webkit-transition:all .6s ease;
+		}
+		ul li img:hover{
+		    opacity: 1;
+			border-radius: 200px;
+			-webkit-tranform:scale(1,2) rotate(360deg);
+			box-shadow: 0px 0px 20px #ddd;
+		}	
